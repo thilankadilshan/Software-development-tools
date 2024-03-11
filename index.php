@@ -34,7 +34,7 @@
                     <ul class="dropdown-menu">
                       <li><a href="#">Landlords</a></li>
                       <li><a href="#">Warden</a></li>
-                      <li><a href="#">Students</a></li>
+                      <li><a href="student/login/login.php">Students</a></li>
                       <li><a href="#">Admin</a></li>
                     </ul>
                   </li>
