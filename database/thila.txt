@@ -17,3 +17,14 @@ CREATE TABLE contact_us (
     message TEXT,
     PRIMARY KEY (id)
 );
+
+
+
+CREATE TABLE admin_users (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    email TEXT NOT NULL UNIQUE,
+    password TEXT NOT NULL
+);
+
+INSERT INTO admin_users (email, password) VALUES ('admin1@gmail.com', '1234');
+INSERT INTO admin_users (email, password) VALUES ('admin2@gmail.com', '1234');
