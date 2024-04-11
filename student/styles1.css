@@ -1,0 +1,88 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Container styles */
+.container {
+    width: 50%;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+/* Form styles */
+form {
+    display: grid;
+    gap: 15px;
+}
+
+/* Label styles */
+label {
+    font-weight: bold;
+    color: #555;
+}
+
+/* Input styles */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="url"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Textarea styles */
+textarea {
+    resize: vertical;
+}
+
+/* Submit button styles */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Error message styles */
+.error-message {
+    color: #ff0000;
+    margin-top: 5px;
+}
+
+/* Success message styles */
+.success-message {
+    color: #008000;
+    margin-top: 5px;
+}

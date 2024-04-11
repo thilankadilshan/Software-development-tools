@@ -1,0 +1,85 @@
+.map-container {
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.map-title {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color: #4CAF50; /* Matching color to the map border background */
+    font-size: 24px;
+}
+
+#map {
+    height: 600px;
+    width: 100%;
+}
+
+.info-window {
+    width: 350px;
+    background-color: #e6f7ff;
+    border: 2px solid #ccc;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.info-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-photo img {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.info-description {
+    width: 100%;
+}
+
+.info-description p {
+    margin: 8px 0;
+    color: #555;
+    font-size: 16px;
+}
+
+.info-description p strong {
+    font-weight: bold;
+}
+
+.info-window h3 {
+    color: #333;
+    font-weight: bold;
+    margin-top: 0;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.contact-button {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-button:hover {
+    background-color: #005f6b;
+}
